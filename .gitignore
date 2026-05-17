@@ -1,0 +1,49 @@
+# Dependencies
+node_modules/
+
+# Next.js build output
+.next/
+out/
+
+# General build artifacts
+dist/
+build/
+coverage/
+*.tsbuildinfo
+
+# Environment and secrets
+.env
+.env.*
+!.env.example
+!.env.test.example
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Local caches and temp files
+.cache/
+.turbo/
+tmp/
+temp/
+*.tmp
+
+# OS / editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Local test outputs
+playwright-report/
+test-results/
+
+# Optional secret/config files
+secrets/
+*.pem
+*.key
+*.p12
+*.crt
